@@ -48,7 +48,7 @@ Now, you are able to try your chatbot with the **main.py** code. All the times y
 
 [image]: https://user-images.githubusercontent.com/74323079/197056368-a37cc994-5f6a-40b2-b9ba-1b1a9e7821df.png "Prompt Image"
 
-This program is able to understand many languages. In case, I will use this ChatBot to receipt and send messages in Portuguese, like in the example below:
+This program is able to understand many languages. In this case, I will use this ChatBot to receipt and send messages in Portuguese, like in the example below:
 
 ![alt text][image]
 
