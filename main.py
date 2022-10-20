@@ -1,18 +1,19 @@
 from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
+from chatterbot.trainers import ChatterBotCorpusTrainer
 
 bot = ChatBot('Chat_Bot_Name')
 
-conversation = ['Oi', 'Olá', 'Tudo bem?', 'Tudo ótimo', 'Você é um robô?', 'Sim, um robô feito em Python']
+conversation = ['Hi', 'Hello', 'How are you?', 'I am great!', 'Are you a robot?', 'Yes, I am a robot made in Python']
 
 
-trainer = ListTrainer(bot)
+trainer = ChatterBotCorpusTrainer(bot)
 trainer.train(conversation)
 
 while True:
-    pergunta = input("User: ")
-    resposta = bot.get_response(pergunta)
-    if float(resposta.confidence) > 0.5:
-        print('Chat_Bot_Name: ', resposta)
+    question = input("User: ")
+    answer = bot.get_response(question)
+    if float(answer.confidence) > 0.5:
+        print('Chat_Bot_Name: ', answer)
     else:
-        print('Chat_Bot_Name: Ainda não sei responder esta pergunta')
+        print('Chat_Bot_Name: Sorry, I cannot answer this question yet')
