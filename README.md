@@ -48,11 +48,11 @@ Now, you are able to try your chatbot with the **main.py** code. All the times y
 
 [image]: https://user-images.githubusercontent.com/74323079/197056368-a37cc994-5f6a-40b2-b9ba-1b1a9e7821df.png "Prompt Image"
 
-This program is able to understand many languages. In this case, I will use this ChatBot to receipt and send messages in Portuguese, like in the example below:
+This program is able to understand many languages. In this case, I will use this ChatBot to recive and send messages in Portuguese, like in the example below:
 
 ![alt text][image]
 
-[image]: https://user-images.githubusercontent.com/74323079/197012173-bb917e7f-43ff-41b5-9378-c625273652a5.png "Prompt Image"
+[image]: 197012173-bb917e7f-43ff-41b5-9378-c625273652a5](https://user-images.githubusercontent.com/74323079/197066407-c978faf8-fb2b-4b9f-a301-29c5e344a56d.png "Prompt Image"
 
 To improve your bot, you can import a data base with some examples that will help you. In this example, I am creating a Bot that need to understand Portuguese, but a lot of another languages could be find [here](https://github.com/gunthercox/chatterbot-corpus/tree/master/chatterbot_corpus/data)
 
