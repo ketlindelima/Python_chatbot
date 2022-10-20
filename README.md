@@ -61,7 +61,7 @@ To improve your bot, you can import a data base with some examples that will hel
 Now, it is time to improve the conversation, to make this, we just need to substitute the variable *conversation* to the [greatings data base](https://github.com/gunthercox/chatterbot-corpus/blob/master/chatterbot_corpus/data/english/greetings.yml)
 
 
-#I hope that I could help you, enjoy your new friend bot! 😉
+# I hope that I could help you, enjoy your new friend bot! 😉
 
 
 
