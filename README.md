@@ -1,10 +1,10 @@
 # Python_chatbot
 
 ## Install Virtualenv 
-Install with ith the command `pip install virtualenv`. After that, give a name `virtualenv venv` for example.
+Install with the command `pip install virtualenv`. After that, give a name `virtualenv venv` for example.
 
 ## Install the Spacy Library
-Inntall [Spacy library](https://spacy.io/usage) with the command below
+Install [Spacy library](https://spacy.io/usage) with the commands below
 
 ```
 pip install -U pip setuptools wheel
@@ -15,10 +15,10 @@ python -m spacy download en_core_web_sm
 Install with the command `pip install chatterbot` -> [Chatterbot Documentation](https://pypi.org/project/ChatterBot/)
 
 If this error occur: `subprocess-exited-with-error`, try the command `pip install pip==21.3.1`. Your venv pip version has benn downgraded.
-Ater that, instal module pytz `pip install pytz` and if this error appear -> *AttributeError: module 'time' has no attribute 'clock'*, open the **compat.py** code page and searching for `time_func = time.clock`, replace this command for `time_func = time.perf_counter`
+Ater that, install the module named pytz: `pip install pytz` and if this error appear -> *AttributeError: module 'time' has no attribute 'clock'*, open the **compat.py** code page and searching for `time_func = time.clock`, replace this command for `time_func = time.perf_counter`
 
 ## Make you data base learning
-Now, you are ablle to try your chatbot with the **main.py** code. All times you running this code you are creating a data base file trainning your bot! You will see the conversation in the terminal like this:
+Now, you are able to try your chatbot with the **main.py** code. All the times you running this code, you are creating a data base file and trainning your bot! You will see the conversation in the terminal like this:
 
 ![alt text][image]
 
