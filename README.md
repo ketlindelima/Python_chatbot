@@ -23,9 +23,9 @@ python -m spacy download en_core_web_sm
 ## Install the Chatterbot Python Library 
 Install with the command `pip install chatterbot` -> [Chatterbot Documentation](https://pypi.org/project/ChatterBot/)
 
-If this error occur: `subprocess-exited-with-error`, try the command `pip install pip==21.3.1`. Your venv pip version has benn downgraded.
+If this error occur: `subprocess-exited-with-error`, try the command `python -m pip install pip==21.3.1`. Your venv pip version has benn downgraded. Now, try the commandagain `pip install chatterbot`. This process takes some minutes and can produce some warnings.
 
-Ater that, install the module named pytz: `pip install pytz` and if this error appear -> *AttributeError: module 'time' has no attribute 'clock'*, open the **compat.py** code page and searching for `time_func = time.clock`, replace this command for `time_func = time.perf_counter`
+After that, install the module named pytz: `pip install pytz` and if this error appear -> *AttributeError: module 'time' has no attribute 'clock'*, open the **compat.py** code page and searching for `time_func = time.clock`, replace this command for `time_func = time.perf_counter`
 
 Until now, the code to make a simple conversation seems like this:
 
